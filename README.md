@@ -1,1 +1,1 @@
-# better-every-day
+# dig-deeper-journal
