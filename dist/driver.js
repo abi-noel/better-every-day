@@ -18,3 +18,11 @@ if (path.endsWith("prompt.html")) {
         throw new Error("Error: prompt element not found");
     }
 }
+else {
+    const buttonEl = document.getElementById("button");
+    if (buttonEl) {
+        buttonEl.addEventListener("click", () => {
+            window.location.href = "prompt.html";
+        });
+    }
+}
