@@ -9,6 +9,12 @@
   width: 100vw;
   padding: 0 16vw;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -47,4 +53,19 @@
 
 .category {
   text-align: right;
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1s fadeInDown forwards;
 }
