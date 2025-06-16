@@ -86,7 +86,7 @@ export const prompts = [
     {
         pageNumber: 18,
         category: PromptCategory.INTENTION,
-        question: `What makes you feel productive`,
+        question: `What makes you feel productive?`,
     },
     {
         pageNumber: 19,

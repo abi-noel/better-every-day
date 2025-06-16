@@ -3,12 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Better Every Day</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Know Thyself</title>
+    <link rel="stylesheet" href="prompt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Habibi&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="prompt.css" />
   </head>
   <body>
     <script type="module" src="dist/driver.js"></script>
-    <h1>Prompt</h1>
-    <p id="prompt"></p>
+    <div class="page-content">
+      <div class="page-container">
+        <span class="page-number habibi-regular white-80" id="page"></span>
+      </div>
+      <span class="habibi-regular prompt white-80" id="prompt"></span>
+      <div class="category-container">
+        <span class="category habibi-regular white-80" id="category"></span>
+      </div>
+      <!-- <div class="wrapper">
+        <div class="fitted-text habibi-regular">
+          This is a very long prompt that wraps onto multiple lines and keeps
+          going and going hi mom
+        </div>
+      </div> -->
+    </div>
   </body>
 </html>
